@@ -1,5 +1,5 @@
 {
-  "name": "ts-library-template",
+  "name": "@rocketbase/ts-library-template",
   "version": "1.0.0",
   "description": "Template Project for Typescript Libraries",
   "main": "dist/main.cjs.js",
@@ -60,5 +60,8 @@
     "ttypescript": "^1.5.7",
     "typescript": "^3.6.4",
     "typescript-transform-paths": "^1.1.11"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
