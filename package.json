@@ -10,12 +10,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "gulp build",
-    "lint": "gulp lint",
+    "build":    "gulp build",
+    "lint":     "gulp lint",
     "lint:fix": "gulp lint:fix",
-    "clean": "gulp clean",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "meta": "gulp meta"
+    "clean":    "gulp clean",
+    "test":     "gulp test",
+    "test:cov": "gulp test:cov",
+    "meta":     "gulp meta"
   },
   "repository": {
     "type": "git",
