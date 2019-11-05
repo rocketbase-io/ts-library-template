@@ -27,7 +27,7 @@
   "contributors": [
     "Merlin Reichwald <merlin.reichwald@rocketbase.io>"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rocketbase-io/ts-library-template/issues"
   },
