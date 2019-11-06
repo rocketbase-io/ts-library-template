@@ -110,7 +110,7 @@ task("clean:all", parallel(
 
 task("build:ts",      shellTask("ttsc -p ."));
 task("build:dts",     shellTask("api-extractor run --local"));
-task("build:docs",    shellTask("api-documenter markdown -i '<%= output %>' -o '<%= docs %>'", {templateData: dirs}));
+task("build:docs",    shellTask("api-documenter markdown -i <%= output %> -o <%= docs %>", {templateData: dirs}));
 task("build:bundle:cjs",  rollupTask({ format: "cjs",  file: files.outputCjs  }));
 task("build:bundle:esm",  rollupTask({ format: "esm",  file: files.outputEsm  }));
 task("build:bundle:umd",  rollupTask({ format: "umd",  file: files.outputUmd  }, { plugins: [rollupBabel(babelrc)] }));
